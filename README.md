@@ -1,3 +1,7 @@
+Chef AI:
+
+A React web app where users can input ingredients to discover recipes powered by Hugging Face's Mistral AI API. Simply enter what you have, and get delicious recipe ideas in seconds!
+
 Features:
 
 Ingredient Input: Enter a list of ingredients you have on hand.
@@ -20,15 +24,16 @@ Installation:
 Clone the repository:
 
 git clone https://github.com/Darshanp2/ChefAI.git
+
 cd ChefAI
 
 Install dependencies:
+
 npm install
 
-ADD HUGGING_FACE_API_KEY in AI.js 
+ADD HUGGING_FACE_API_KEY in AI.js:
 const HF_TOKEN =your_api_key_here
 
-Start the development servers:
 
 Client (React app):
 
@@ -36,8 +41,8 @@ npm start
 
 Open the app in your browser (typically at http://localhost:3000).
 
-Enter the ingredients you want to use.
+1. Enter the ingredients you want to use.
 
-Click the button to generate recipes.
+2. Click the button to generate recipes.
 
-View the recipe ideas returned by the AI.
+3. View the recipe ideas returned by the AI.
